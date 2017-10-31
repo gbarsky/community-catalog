@@ -1,0 +1,2 @@
+  onap:
+    image: oomk8s/onap-deploy
