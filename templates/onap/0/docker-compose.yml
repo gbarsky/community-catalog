@@ -1,2 +1,4 @@
-  onap:
-    image: oomk8s/onap-deploy
+onap:
+  image: oomk8s/onap-deploy
+  environment:
+    HELM_APPL: ${HELM_APPL}  
