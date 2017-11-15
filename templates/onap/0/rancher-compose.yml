@@ -1,13 +1,15 @@
-.catalog:
-  name: "ONAP"
-  version: "v1.1"
-  description: "ONAP is a comprehensive platform for real-time, policy-driven orchestration and automation of physical and virtual network functions that will enable software, network, IT and cloud providers and developers to rapidly create new services."
-  minimum_rancher_version: v0.44.0
-  maximum_rancher_version: v1.2.0-pre3
+version: 2
+catalog:
+  name: ONAP
+  version: v1.1
+  description: |
+    ONAP is a comprehensive platform for real-time, policy-driven orchestration and automation of physical and virtual network functions that will enable software, network, IT and cloud providers and developers to rapidly create new services.
+  minimum_rancher_version: v0.51.0
+  maintainer: "Geora Barsky<georab@amdocs.com>"
+  uuid: onap-0
   questions:
     - variable: "HELM_APPL"
       label: "Application for Deploy"
       description: "The list of application to deploy.If nothing is specified all applications will be deployed"
       type: "string"
       required: false
-
