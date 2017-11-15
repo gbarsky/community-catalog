@@ -3,7 +3,7 @@ catalog:
   name: ONAP
   version: v1.1
   description: |
-    ONAP is a comprehensive platform for real-time, policy-driven orchestration and automation of physical and virtual network functions that will enable software, network, IT and cloud providers and developers to rapidly create new services.
+    ONAP is a comprehensive platform for real-time
   minimum_rancher_version: v0.51.0
   maintainer: "Geora Barsky<georab@amdocs.com>"
   uuid: onap-0

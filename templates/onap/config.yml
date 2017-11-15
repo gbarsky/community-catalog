@@ -1,6 +1,6 @@
 name: ONAP	
 description: |
-  ONAP is a comprehensive platform for real-time, policy-driven orchestration and automation of physical and virtual network functions that will enable software, network, IT and cloud providers and developers to rapidly create new services.
+  ONAP is a comprehensive platform for real-time
 version: 1.1
 category: ONAP
 maintainer: "Geora Barsky <georab@amdocs.com>"
